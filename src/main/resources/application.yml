@@ -1,0 +1,13 @@
+seatService:
+      url: http://localhost:8080/events
+
+swagger:
+  Enabled: true
+
+server:
+  port: 8080
+logging:
+  level:
+    com:
+      sandeep:
+        events: debug
